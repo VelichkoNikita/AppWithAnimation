@@ -9,13 +9,13 @@ const Header = (props) => {
     return (
         <HeaderStyled>
             <Row col={3} col_md={6} col_sm={6} justify={"start"} align_items={"center"}>
-                <Col mr={2} grow={false}>
+                <Col z_index={2} mr={2} grow={false}>
                     <Link to={'/StartPage'}>
                         <HomeImg src={Home}/>
                     </Link>
                 </Col>
                 <HomeLine/>
-                <Col ml={2}>
+                <Col z_index={2}  ml={2}>
                     <Circle>PROJECT</Circle>
                 </Col>
             </Row>

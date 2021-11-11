@@ -28,6 +28,7 @@ export const FooterPng = styled.img`
 `
 
 export const HomeLine = styled.div`
+z-index:2;
    border-right: 2px solid;
    height: 47px;
    @media (max-width: 768px){
